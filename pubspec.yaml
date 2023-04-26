@@ -1,0 +1,39 @@
+name: koins
+description: Coin puzzle for kids.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.1.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Fraunces
+      fonts:
+        - asset: assets/Fraunces_SemiBold.ttf
+          weight: 600
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat-Medium.ttf
+          weight: 800
+        - asset: assets/Montserrat-Bold.ttf
+          weight: 700
+        # - asset: assets/Montserrat-ExtraBold.ttf
+        #   weight: 800
+
+  
